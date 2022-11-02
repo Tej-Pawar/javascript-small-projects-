@@ -1,3 +1,4 @@
+import dom from "./app.js"
 const fname = document.getElementById("name");
 const word = document.getElementById("word");
 const btn = document.getElementById("btn");

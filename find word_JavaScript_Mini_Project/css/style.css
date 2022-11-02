@@ -4,11 +4,22 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #425F57;
+}
+
 .container {
     width: 30%;
     margin: 10rem auto;
-    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 3rem 2rem;
+    background-color: #fff;
+}
+
+h1 {
+    color: #425F57;
+    text-align: center;
 }
 
 .form-control {

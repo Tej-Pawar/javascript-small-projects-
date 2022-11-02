@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #425F57;
+}
+
+.container {
+    width: 30%;
+    margin: 10rem auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 3rem 2rem;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #425F57;
+}
+
+.form-control {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control select {
+    padding: 0.5rem;
+    width: 65%;
+    margin-bottom: 0.5rem;
+    border: 2px solid orange;
+}
+
+.form-control button {
+    width: 30%;
+    border-radius: 5px;
+    background-color: rgb(49, 187, 49);
+    color: #fff;
+    border: none;
+}
+
+p {
+    text-align: center;
+    color: #070707;
+}

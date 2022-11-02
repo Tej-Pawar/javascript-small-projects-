@@ -1,3 +1,6 @@
+import dom from "./app.js";
+
+
 const btn = document.getElementById("btn");
 btn.addEventListener("click", (e) => {
     const fname = document.getElementById("name").value;
